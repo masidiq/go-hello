@@ -14,7 +14,7 @@ func main() {
 	}
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintln(w, "✅ Hello from Golang on Railway!")
+		fmt.Fprintln(w, "Hallo bray")
 	})
 
 	log.Println("🚀 Server running on port", port)
